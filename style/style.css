@@ -1,0 +1,81 @@
+
+body, html{
+  height: 100%;
+}
+
+nav {
+  min-height: 65px;
+}
+
+
+
+.header{
+max-width: 100%;
+max-height: 100%;
+}
+
+.intro {
+ position: absolute;
+  top:140px;
+  right: 60px;
+  z-index: 1;
+  width: 450px;
+  background-color: white;
+  padding: 30px;
+}
+
+.mugshot {
+  width: 150px;
+  height: 150px;
+  display: none;
+}
+
+.mainImage {
+z-index: -1;
+}
+
+p {
+color: gray;  
+}
+
+a {
+  font-size: 1.5em;
+}
+
+.hedSpace {
+  margin-bottom: 40px;
+}
+
+.main {
+  height: 90%;
+  padding-top: 80px;
+  }
+
+@media screen and (max-width: 860px) {
+.mainImage{
+    display: none;
+  }
+  
+  .display-3{
+    font-size: 3.5rem;
+  }
+  .intro {
+ position: static;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+  background-color: white;
+  padding: 10px;
+  height: 100%;
+  padding-top: 80px;
+}
+  
+  .mugshot{
+    display: block;
+    margin-top: 50px;
+  }
+  
+}
+	
+	
+	
