@@ -42,6 +42,13 @@ a {
   font-size: 1.5em;
 }
 
+.plainAnchor{
+  font-size: 1rem;
+  color: gray;
+  line-height: 1.428;
+  margin-bottom: 10px;
+}
+
 .hedSpace {
   margin-bottom: 40px;
 }
