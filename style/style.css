@@ -7,6 +7,10 @@ nav {
   min-height: 65px;
 }
 
+.display-3, small {
+  color: gray;
+}
+
 
 
 .header{
@@ -56,6 +60,23 @@ a {
 .main {
   height: 90%;
   padding-top: 80px;
+  }
+
+  #Websites {
+    
+    color: orange;
+  }
+
+  .outline {
+    outline: .5px solid gray;
+  }
+
+dl {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+  dt, dd {
+    color: gray;
   }
 
 @media screen and (max-width: 860px) {
