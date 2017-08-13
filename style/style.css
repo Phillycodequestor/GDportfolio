@@ -58,7 +58,7 @@ a {
 }
 
 .main {
-  height: 90%;
+  height: 100%;
   padding-top: 80px;
   }
 
@@ -103,6 +103,12 @@ dl {
     margin-top: 50px;
   }
   
+}
+
+@media screen and (max-width: 769px){
+  .main {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 325px){
