@@ -11,8 +11,6 @@ nav {
   color: gray;
 }
 
-
-
 .header{
 max-width: 100%;
 max-height: 100%;
@@ -63,8 +61,13 @@ a {
   }
 
   #Websites {
-    
+  color: orange;
+  background: HoneyDew;
+  }
+
+  #Contact{
     color: orange;
+    background: Beige;
   }
 
   .outline {
@@ -106,8 +109,8 @@ dl {
 }
 
 @media screen and (max-width: 769px){
-  .main {
-    height: auto;
+ #Websites {
+  height: auto;
   }
 }
 
