@@ -1,6 +1,7 @@
 
 body, html{
   height: 100%;
+
 }
 
 nav {
@@ -58,7 +59,7 @@ a {
 .main {
   height: 100%;
   padding-top: 80px;
-  }
+}
 
   #Websites {
   color: orange;
@@ -95,7 +96,7 @@ dl {
   margin: 0 auto;
   width: 100%;
   max-width: 450px;
-  background-color: white;
+  background-color: LightGoldenRodYellow;
   padding: 10px;
   height: 100%;
   padding-top: 80px;
