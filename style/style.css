@@ -25,12 +25,13 @@ max-height: 100%;
 }
 
 .mugshot {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 display: block;
 }
 
 .mainImage {
+ min-height: 560px; 
 height: 100%;
 z-index: -1;
 background-image: url("https://www.freewebheaders.com/wordpress/wp-content/gallery/high-tech-hero-headers/blue-black-digital-binary-technology-hero-header.jpg");
@@ -50,9 +51,15 @@ a {
 .hedSpace {
   margin-bottom: 40px;
 }
+#textbox {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .main {
   height: 100%;
+  min-height: 560px;
   padding-top: 80px;
 }
 
@@ -61,13 +68,19 @@ a {
   background: CornflowerBlue;
   }
 
-  #Contact{
+  #Print{
     color: orange;
     background: Beige;
+    padding-top: 80px;
+    min-height: 1000px;
   }
 
   .outline {
     outline: .5px solid gray;
+  }
+
+  .capsule {
+    padding-bottom: 20px;
   }
 
 dl {
@@ -79,7 +92,7 @@ dl {
   }
 
 @media screen and (max-width: 769px){
- #Websites {
+ #Websites, #Print {
   height: auto;
   }
 }
