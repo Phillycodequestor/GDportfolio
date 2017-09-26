@@ -28,13 +28,13 @@ max-height: 100%;
 }
 
 .mugshot {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 display: block;
 }
 
 .mainImage {
- min-height: 560px; 
+ min-height: 600px; 
 height: 100%;
 z-index: -1;
 background-image: url("https://www.freewebheaders.com/wordpress/wp-content/gallery/high-tech-hero-headers/blue-black-digital-binary-technology-hero-header.jpg");
@@ -68,7 +68,7 @@ a {
 
   #Websites {
   color: white;
-  background: CornflowerBlue;
+  background: Sienna;
   min-height: 650px;
   }
 
