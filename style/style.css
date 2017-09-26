@@ -17,6 +17,9 @@ nav {
   position: relative;
   top: 100px;
   z-index: 1;
+  background-color: RoyalBlue;
+  padding: 20px;
+  max-width: 400px;
 }
 
 .header{
@@ -59,13 +62,14 @@ a {
 
 .main {
   height: 100%;
-  min-height: 560px;
+  
   padding-top: 80px;
 }
 
   #Websites {
   color: white;
   background: CornflowerBlue;
+  min-height: 650px;
   }
 
   #Print{
@@ -92,9 +96,9 @@ dl {
   }
 
 @media screen and (max-width: 769px){
- #Websites, #Print {
+#Websites, #Print{
   height: auto;
-  }
+} 
 }
 
 
