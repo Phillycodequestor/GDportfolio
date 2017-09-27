@@ -96,9 +96,14 @@ dl {
   }
 
 @media screen and (max-width: 769px){
-#Websites, #Print{
+#Websites, #Print, {
   height: auto;
 } 
+
+.mainImage{
+  min-height: 725px;
+}
+
 }
 
 
