@@ -61,7 +61,7 @@ a {
 }
 
 .main {
-  height: 100%;
+  /*height: 100%;*/
   
   padding-top: 80px;
 }
@@ -76,7 +76,7 @@ a {
     color: orange;
     background: Beige;
     padding-top: 80px;
-    min-height: 1000px;
+    /*min-height: 1000px;*/
   }
 
   .outline {
@@ -97,7 +97,7 @@ dl {
 
 @media screen and (max-width: 769px){
 #Websites, #Print, {
-  height: auto;
+  /*height: auto;*/
 } 
 
 .mainImage{
