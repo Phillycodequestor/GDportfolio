@@ -1,7 +1,6 @@
 
 body, html{
   height: 100%;
-
 }
 
 h1 {
@@ -21,8 +20,6 @@ nav {
   padding: 20px;
   max-width: 400px;
 }
-
-
 
 .mugshot {
   width: 90px;
@@ -52,6 +49,7 @@ a {
 .hedSpace {
   margin-bottom: 40px;
 }
+
 #textbox {
   max-width: 500px;
   margin-right: auto;
@@ -59,9 +57,7 @@ a {
 }
 
 .main {
-  /*height: 100%;*/
-  
-  padding-top: 80px;
+padding-top: 80px;
 }
 
   #Websites {
@@ -74,7 +70,7 @@ a {
     color: orange;
     background: Beige;
     padding-top: 80px;
-    min-height: 1366px;
+    min-height: 900px;
   }
 
   .outline {
