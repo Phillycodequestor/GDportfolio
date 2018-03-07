@@ -3,6 +3,10 @@ body, html{
   height: 100%;
 }
 
+.smallfont{
+  font-size: .70rem;
+}
+
 h1 {
   font-size: 2em;
 }
@@ -73,6 +77,11 @@ padding-top: 80px;
     min-height: 900px;
   }
 
+  #clips{
+    background: DarkSeaGreen;
+    color: white;
+  }
+
   .outline {
     outline: .5px solid gray;
   }
@@ -80,6 +89,8 @@ padding-top: 80px;
   .capsule {
     padding-bottom: 20px;
   }
+
+
 
 dl {
   padding-top: 5px;
